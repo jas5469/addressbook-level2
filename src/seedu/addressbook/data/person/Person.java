@@ -15,6 +15,9 @@ public class Person implements ReadOnlyPerson,Comparable<Person> {
     private Email email;
     private Address address;
 
+    private int seqNumber;
+    private static int nextSeqNumber = 0;
+
     private final UniqueTagList tags;
     /**
      * Assumption: Every field must be present and not null.
@@ -24,6 +27,8 @@ public class Person implements ReadOnlyPerson,Comparable<Person> {
         this.phone = phone;
         this.email = email;
         this.address = address;
+        nextSeqNumber++;
+        seqNumber= nextSeqNumber;
         this.tags = new UniqueTagList(tags); // protect internal tags from changes in the arg list
     }
 

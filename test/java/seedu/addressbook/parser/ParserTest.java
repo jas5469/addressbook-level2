@@ -35,7 +35,7 @@ import seedu.addressbook.data.tag.UniqueTagList;
 
 public class ParserTest {
 
-    
+
 
     /*
      * Note how the names of the test methods does not follow the normal naming convention.
