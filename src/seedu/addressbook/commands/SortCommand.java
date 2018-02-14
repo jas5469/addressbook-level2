@@ -9,7 +9,7 @@ public class SortCommand extends Command {
     public static final String COMMAND_WORD = "sort";
 
     public static final String MESSAGE_USAGE = COMMAND_WORD
-            + ": Sorted the address book in lexicographical order.\n"
+            + ": Sorted the address book in lexicographical order at the current instance.\n"
             + "Example: " + COMMAND_WORD;
 
     @Override
