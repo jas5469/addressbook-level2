@@ -95,6 +95,10 @@ public class UniquePersonList implements Iterable<Person> {
         }
         return false;
     }
+    public void sort(){
+        Collections.sort(internalList);
+
+    }
 
     /**
      * Adds a person to the list.
