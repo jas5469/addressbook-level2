@@ -135,6 +135,9 @@
 || 
 || 5 persons listed!
 || ===================================================
+|| Enter command: || [Command entered:  add Esther Potato p/555555 e/esther@not.a.real.potato pa/555, epsilon street t/tubers t/starchy]
+|| This person already exists in the address book
+|| ===================================================
 || Enter command: || [Command entered:  add Alice Brown p/666666 e/alice@gmail.com a/666 six street]
 || New person added: Alice Brown Phone: 666666 Email: alice@gmail.com Address: 666 six street Tags: 
 || ===================================================
@@ -156,10 +159,17 @@
 || 	5. Dickson Ee Phone: 444444 Address: 444, delta street Tags: [friends]
 || 	6. Esther Potato Phone: 555555 Email: esther@not.a.real.potato Tags: [tubers][starchy]
 || 
-|| 6 persons has been sorted and shown for this instance!
+|| 6 persons has been sorted and sorted list is shown
 || ===================================================
-|| Enter command: || [Command entered:  add Esther Potato p/555555 e/esther@not.a.real.potato pa/555, epsilon street t/tubers t/starchy]
-|| This person already exists in the address book
+|| Enter command: || [Command entered:  list]
+|| 	1. Adam Brown Phone: 111111 Email: adam@gmail.com Address: 111, alpha street Tags: 
+|| 	2. Alice Brown Phone: 666666 Email: alice@gmail.com Address: 666 six street Tags: 
+|| 	3. Betsy Choo Tags: [secretive]
+|| 	4. Charlie Dickson Email: charlie.d@nus.edu.sg Address: 333, gamma street Tags: [school][friends]
+|| 	5. Dickson Ee Phone: 444444 Address: 444, delta street Tags: [friends]
+|| 	6. Esther Potato Phone: 555555 Email: esther@not.a.real.potato Tags: [tubers][starchy]
+|| 
+|| 6 persons listed!
 || ===================================================
 || Enter command: || [Command entered:  view]
 || Invalid command format! 
@@ -289,21 +299,21 @@
 || ===================================================
 || Enter command: || [Command entered:  list]
 || 	1. Adam Brown Phone: 111111 Email: adam@gmail.com Address: 111, alpha street Tags: 
-|| 	2. Betsy Choo Tags: [secretive]
-|| 	3. Dickson Ee Phone: 444444 Address: 444, delta street Tags: [friends]
-|| 	4. Esther Potato Phone: 555555 Email: esther@not.a.real.potato Tags: [tubers][starchy]
-|| 	5. Alice Brown Phone: 666666 Email: alice@gmail.com Address: 666 six street Tags: 
+|| 	2. Alice Brown Phone: 666666 Email: alice@gmail.com Address: 666 six street Tags: 
+|| 	3. Betsy Choo Tags: [secretive]
+|| 	4. Dickson Ee Phone: 444444 Address: 444, delta street Tags: [friends]
+|| 	5. Esther Potato Phone: 555555 Email: esther@not.a.real.potato Tags: [tubers][starchy]
 || 
 || 5 persons listed!
 || ===================================================
 || Enter command: || [Command entered:  delete 4]
-|| Deleted Person: Esther Potato Phone: 555555 Email: esther@not.a.real.potato Address: (private) 555, epsilon street Tags: [tubers][starchy]
+|| Deleted Person: Dickson Ee Phone: 444444 Email: (private) dickson@nus.edu.sg Address: 444, delta street Tags: [friends]
 || ===================================================
 || Enter command: || [Command entered:  list]
 || 	1. Adam Brown Phone: 111111 Email: adam@gmail.com Address: 111, alpha street Tags: 
-|| 	2. Betsy Choo Tags: [secretive]
-|| 	3. Dickson Ee Phone: 444444 Address: 444, delta street Tags: [friends]
-|| 	4. Alice Brown Phone: 666666 Email: alice@gmail.com Address: 666 six street Tags: 
+|| 	2. Alice Brown Phone: 666666 Email: alice@gmail.com Address: 666 six street Tags: 
+|| 	3. Betsy Choo Tags: [secretive]
+|| 	4. Esther Potato Phone: 555555 Email: esther@not.a.real.potato Tags: [tubers][starchy]
 || 
 || 4 persons listed!
 || ===================================================
@@ -311,9 +321,9 @@
 || Deleted Person: Adam Brown Phone: 111111 Email: adam@gmail.com Address: 111, alpha street Tags: 
 || ===================================================
 || Enter command: || [Command entered:  list]
-|| 	1. Betsy Choo Tags: [secretive]
-|| 	2. Dickson Ee Phone: 444444 Address: 444, delta street Tags: [friends]
-|| 	3. Alice Brown Phone: 666666 Email: alice@gmail.com Address: 666 six street Tags: 
+|| 	1. Alice Brown Phone: 666666 Email: alice@gmail.com Address: 666 six street Tags: 
+|| 	2. Betsy Choo Tags: [secretive]
+|| 	3. Esther Potato Phone: 555555 Email: esther@not.a.real.potato Tags: [tubers][starchy]
 || 
 || 3 persons listed!
 || ===================================================
