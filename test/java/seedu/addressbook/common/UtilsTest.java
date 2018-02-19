@@ -64,7 +64,7 @@ public class UtilsTest {
         assertTrue(Utils.isAnyNull(objects));
     }
 
-    private void assertNotNullJ(Object... objects){
+    private void assertNotNull(Object... objects){
         assertFalse(Utils.isAnyNull(objects));
     }
     private void assertAreUnique(Object... objects) {
